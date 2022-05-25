@@ -1,7 +1,7 @@
 version: '3.3' 
 services: 
  wordpress: 
-  image: wordpress 
+  image: joomla 
   restart: always 
   links: 
    - wordpressdb:mysql 
